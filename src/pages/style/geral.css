@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+*{
+    background-color: rgb(77, 182, 45);
+    list-style: none;
+    font-family: 'Tektur', cursive;
+}
+
+a{
+    background-color: rgba(0, 0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+li{
+    list-style: none;
+}
+
+.sf{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.lista{
+    background-color: rgba(0, 0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.lista:hover{
+    color: yellow;
+}
+
+
+#trailer-cont{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 60%;
+    margin-right: 10px;
+}
+
+.sinopse{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.descricao{
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Tektur', cursive;
+    width: 107%;
+}
+
+.button{
+    transition: .8s;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.banner-1{
+    background-image: url(https://images.nintendolife.com/46880a395798a/link-link-and-more-link.large.jpg);
+}
+.banner-2{
+background-image: url(https://pbs.twimg.com/media/FomkPXfWcAAjFPY?format=jpg&name=medium);
+}
+.banner-3{
+    background-image: url(https://pbs.twimg.com/media/Ftmc_xgXwAAkdE6.jpg:large);
+}
+
+.card{
+    transition: 1s;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.fundoC{
+    background-image: url(../../assets/fundo.jpg);
+    background-repeat: repeat;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 19px;
+}
+.fundo2{
+    background-image: url(../../assets/fundo2.jpg);
+    background-repeat: repeat;
+    align-items: center;
+}
+
+textarea{
+    background-color: #fff;
+}
+
+.banner{
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height:20%;
+}
+
+h1{
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+h2{
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
